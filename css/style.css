@@ -25,6 +25,81 @@ h4 {
     margin-bottom: 20px;
 }
 
-header {
+.main-header {
+    background: url(../img/3-layers.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+}
+
+.main-header .navbar-brand,
+.main-header ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+.main-header .navbar-brand {
+    font-size: 41px;
+}
+
+.main-header ul li a {
+    font-size: 17px;
+}
+
+.main-header ul li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.main-header ul li a:hover::after {
+    transform: scale(1);
+}
+
+.main-header-text {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    max-width: 600px;
+    color: white;
+    padding: 20px;
+}
+
+.main-header-buttons {
+    padding: 30px;
+}
+
+.main-header-buttons .btn {
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    opacity: 0.9;
+    box-shadow: 0 4px 16px rgba(0,0 , 0, .35);
+    transition: all .0.5s;
+}
+.main-header-buttons .btn:hover {
+    color: white;
+}
+
+.btn-pink {
+    background-color: #f42267;
+}
+
+.btn-violet {
+    background-color: #5f3fb8;
     
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
 }
