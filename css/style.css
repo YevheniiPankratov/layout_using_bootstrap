@@ -109,6 +109,49 @@ h4 {
     text-transform: uppercase;
 }
 
+/* section watch */
+
+.section-watch {
+    background-color: white;
+    background-size: cover;
+}
+
+.section-watch h3, .section-watch h4 {
+    color: #484848;
+}
+
+.section-watch .nav-pills .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 14px 30px;
+}
+
+.section-watch .nav-pills .nav-item .nav-link.active {
+    background-color: #f42267;
+    color: white;
+    box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
+}
+
+.section-watch .nav-pills {
+    margin: 30px 0;
+}
+
+.btn-shadow {
+    box-shadow: 0 10px 0 #ff5990;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all .3s; 
+}
+
+.btn-shadow:hover {
+    box-shadow: 0 4px 0 #ff5990;
+    color: #fff;
+    background-color: #da1757
+}
+
+
+
 @media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 992px) {
