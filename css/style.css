@@ -145,6 +145,10 @@ h4 {
     transition: all .3s;
 }
 
+.tab-content {
+    color: black;
+}
+
 .btn-shadow:hover {
     box-shadow: 0 4px 0 #ff5990;
     color: #fff;
@@ -198,14 +202,35 @@ h4 {
 .grow-together {
     background: url(../img/2-layers.png) center no-repeat;
     background-size: cover;
-    height: 100vh;
-    min-height: 520px;
     position: relative;
     text-align: center;
 }
 
 .grow-together .btn {
     margin-top: 70px;
+}
+
+/* graphic-design */
+
+.graphic-design {
+    color: #484848;
+}
+
+.tex {
+    padding-top: 20px;
+}
+
+.texxt {
+    font-family: "Montserrat - Semi Bold";
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px 0;
+}
+
+.embed-responsive {
+    position: relative;
+    border-radius: 10px;
 }
 
 
