@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     min-width: 320px;
-    color: #1d1d1d;
+    color: #fff;
 }
 
 img {
@@ -175,7 +175,7 @@ h4 {
     font-size: 30px;
 }
 
-.progress-item {
+.section-progress .progress-item {
     padding: 50px 0;
     transition: all .5s;
 }
@@ -192,6 +192,24 @@ h4 {
     margin: 30px 0 10px;
 
 }
+
+/* grow-together */
+
+.grow-together {
+    background: url(../img/2-layers.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 520px;
+    position: relative;
+    text-align: center;
+}
+
+.grow-together .btn {
+    margin-top: 70px;
+}
+
+
+
 
 
 
@@ -230,11 +248,14 @@ h4 {
     h4 {
         font-size: 30px;
     }
+
+    .section-progress .progress-item {
+        padding: 20px 0;
+    }
 }
 
-.progress-item {
-    padding: 20px 0;
-}
+
+
 
 @media only screen and (max-width: 600px) {
     .main-header-text {
